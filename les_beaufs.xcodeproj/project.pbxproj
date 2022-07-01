@@ -21,6 +21,7 @@
 		367EC1F8286F608C00D1807E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 367EC1F7286F608C00D1807E /* FirebaseFirestoreSwift */; };
 		367EC1FA286F608C00D1807E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 367EC1F9286F608C00D1807E /* FirebaseStorage */; };
 		367EC1FC286F608C00D1807E /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 367EC1FB286F608C00D1807E /* FirebaseStorageCombine-Community */; };
+		367EC1FE286F652D00D1807E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 367EC1FD286F652D00D1807E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		367EC1EC286F5C7700D1807E /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
 		367EC1EE286F5C8C00D1807E /* LibPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibPage.swift; sourceTree = "<group>"; };
 		367EC1F0286F5EF700D1807E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		367EC1FD286F652D00D1807E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = les_beaufs/README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				367EC1E5286F595700D1807E /* Info.plist */,
 				367EC1F0286F5EF700D1807E /* GoogleService-Info.plist */,
 				367EC1E2286F595700D1807E /* les_beaufs.xcdatamodeld */,
+				367EC1FD286F652D00D1807E /* README.md */,
 				367EC1DD286F595700D1807E /* Preview Content */,
 			);
 			path = les_beaufs;
@@ -172,6 +175,7 @@
 			files = (
 				367EC1DF286F595700D1807E /* Preview Assets.xcassets in Resources */,
 				367EC1DC286F595700D1807E /* Assets.xcassets in Resources */,
+				367EC1FE286F652D00D1807E /* README.md in Resources */,
 				367EC1F1286F5EF700D1807E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
