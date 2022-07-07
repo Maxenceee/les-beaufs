@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362D7E06286F809100E58973 /* les_beaufs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 362D7E04286F809100E58973 /* les_beaufs.xcdatamodeld */; };
+		365B93EB28775D7B008B042C /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B93EA28775D7B008B042C /* BlurView.swift */; };
+		365B93ED28776CB2008B042C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B93EC28776CB2008B042C /* Extensions.swift */; };
+		365B93EF2877746A008B042C /* CustomBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B93EE2877746A008B042C /* CustomBarItem.swift */; };
+		365B93F1287777C9008B042C /* CustomTabBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B93F0287777C9008B042C /* CustomTabBarContainer.swift */; };
+		365B93F328777B29008B042C /* TabBarItemPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B93F228777B29008B042C /* TabBarItemPreferenceKey.swift */; };
+		365B93F528778356008B042C /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B93F428778356008B042C /* TabBarItem.swift */; };
 		367EC1D8286F595400D1807E /* les_beaufsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367EC1D7286F595400D1807E /* les_beaufsApp.swift */; };
 		367EC1DA286F595400D1807E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367EC1D9286F595400D1807E /* ContentView.swift */; };
 		367EC1DC286F595700D1807E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367EC1DB286F595700D1807E /* Assets.xcassets */; };
 		367EC1DF286F595700D1807E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367EC1DE286F595700D1807E /* Preview Assets.xcassets */; };
 		367EC1E1286F595700D1807E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367EC1E0286F595700D1807E /* Persistence.swift */; };
-		367EC1E4286F595700D1807E /* les_beaufs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 367EC1E2286F595700D1807E /* les_beaufs.xcdatamodeld */; };
 		367EC1ED286F5C7700D1807E /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367EC1EC286F5C7700D1807E /* Homepage.swift */; };
 		367EC1EF286F5C8C00D1807E /* LibPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367EC1EE286F5C8C00D1807E /* LibPage.swift */; };
 		367EC1F1286F5EF700D1807E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 367EC1F0286F5EF700D1807E /* GoogleService-Info.plist */; };
@@ -21,22 +27,36 @@
 		367EC1F8286F608C00D1807E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 367EC1F7286F608C00D1807E /* FirebaseFirestoreSwift */; };
 		367EC1FA286F608C00D1807E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 367EC1F9286F608C00D1807E /* FirebaseStorage */; };
 		367EC1FC286F608C00D1807E /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 367EC1FB286F608C00D1807E /* FirebaseStorageCombine-Community */; };
-		367EC1FE286F652D00D1807E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 367EC1FD286F652D00D1807E /* README.md */; };
+		367EC200286F697E00D1807E /* Blague.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367EC1FF286F697E00D1807E /* Blague.swift */; };
+		367EC203286F6A4A00D1807E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367EC202286F6A4A00D1807E /* ViewModel.swift */; };
+		367EC205286F6EE000D1807E /* BlagueDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367EC204286F6EE000D1807E /* BlagueDetail.swift */; };
+		367EC207286F712800D1807E /* FireStoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367EC206286F712800D1807E /* FireStoreModel.swift */; };
+		3699BA6C2870969E003AB57E /* HomePageBlagueComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3699BA6B2870969E003AB57E /* HomePageBlagueComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		362D7E05286F809100E58973 /* les_beaufs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = les_beaufs.xcdatamodel; sourceTree = "<group>"; };
+		365B93EA28775D7B008B042C /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		365B93EC28776CB2008B042C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		365B93EE2877746A008B042C /* CustomBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBarItem.swift; sourceTree = "<group>"; };
+		365B93F0287777C9008B042C /* CustomTabBarContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainer.swift; sourceTree = "<group>"; };
+		365B93F228777B29008B042C /* TabBarItemPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemPreferenceKey.swift; sourceTree = "<group>"; };
+		365B93F428778356008B042C /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		367EC1D4286F595400D1807E /* les_beaufs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = les_beaufs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		367EC1D7286F595400D1807E /* les_beaufsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = les_beaufsApp.swift; sourceTree = "<group>"; };
 		367EC1D9286F595400D1807E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		367EC1DB286F595700D1807E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		367EC1DE286F595700D1807E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		367EC1E0286F595700D1807E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		367EC1E3286F595700D1807E /* les_beaufs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = les_beaufs.xcdatamodel; sourceTree = "<group>"; };
 		367EC1E5286F595700D1807E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		367EC1EC286F5C7700D1807E /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
 		367EC1EE286F5C8C00D1807E /* LibPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibPage.swift; sourceTree = "<group>"; };
 		367EC1F0286F5EF700D1807E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		367EC1FD286F652D00D1807E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = les_beaufs/README.md; sourceTree = SOURCE_ROOT; };
+		367EC1FF286F697E00D1807E /* Blague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blague.swift; sourceTree = "<group>"; };
+		367EC202286F6A4A00D1807E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		367EC204286F6EE000D1807E /* BlagueDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlagueDetail.swift; sourceTree = "<group>"; };
+		367EC206286F712800D1807E /* FireStoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireStoreModel.swift; sourceTree = "<group>"; };
+		3699BA6B2870969E003AB57E /* HomePageBlagueComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageBlagueComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +97,14 @@
 				367EC1D7286F595400D1807E /* les_beaufsApp.swift */,
 				367EC1D9286F595400D1807E /* ContentView.swift */,
 				367EC1EB286F5C6700D1807E /* Views */,
-				367EC1DB286F595700D1807E /* Assets.xcassets */,
+				3699BA6A2870964F003AB57E /* Components */,
+				367EC201286F698300D1807E /* Model */,
 				367EC1E0286F595700D1807E /* Persistence.swift */,
+				365B93EC28776CB2008B042C /* Extensions.swift */,
+				367EC1DB286F595700D1807E /* Assets.xcassets */,
 				367EC1E5286F595700D1807E /* Info.plist */,
 				367EC1F0286F5EF700D1807E /* GoogleService-Info.plist */,
-				367EC1E2286F595700D1807E /* les_beaufs.xcdatamodeld */,
-				367EC1FD286F652D00D1807E /* README.md */,
+				362D7E04286F809100E58973 /* les_beaufs.xcdatamodeld */,
 				367EC1DD286F595700D1807E /* Preview Content */,
 			);
 			path = les_beaufs;
@@ -101,8 +123,32 @@
 			children = (
 				367EC1EC286F5C7700D1807E /* Homepage.swift */,
 				367EC1EE286F5C8C00D1807E /* LibPage.swift */,
+				367EC204286F6EE000D1807E /* BlagueDetail.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		367EC201286F698300D1807E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				367EC1FF286F697E00D1807E /* Blague.swift */,
+				367EC202286F6A4A00D1807E /* ViewModel.swift */,
+				367EC206286F712800D1807E /* FireStoreModel.swift */,
+				365B93F428778356008B042C /* TabBarItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3699BA6A2870964F003AB57E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3699BA6B2870969E003AB57E /* HomePageBlagueComponent.swift */,
+				365B93EA28775D7B008B042C /* BlurView.swift */,
+				365B93F228777B29008B042C /* TabBarItemPreferenceKey.swift */,
+				365B93F0287777C9008B042C /* CustomTabBarContainer.swift */,
+				365B93EE2877746A008B042C /* CustomBarItem.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +221,6 @@
 			files = (
 				367EC1DF286F595700D1807E /* Preview Assets.xcassets in Resources */,
 				367EC1DC286F595700D1807E /* Assets.xcassets in Resources */,
-				367EC1FE286F652D00D1807E /* README.md in Resources */,
 				367EC1F1286F5EF700D1807E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,11 +232,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				367EC1E4286F595700D1807E /* les_beaufs.xcdatamodeld in Sources */,
+				367EC200286F697E00D1807E /* Blague.swift in Sources */,
+				367EC207286F712800D1807E /* FireStoreModel.swift in Sources */,
 				367EC1E1286F595700D1807E /* Persistence.swift in Sources */,
+				367EC205286F6EE000D1807E /* BlagueDetail.swift in Sources */,
 				367EC1DA286F595400D1807E /* ContentView.swift in Sources */,
+				365B93EB28775D7B008B042C /* BlurView.swift in Sources */,
 				367EC1D8286F595400D1807E /* les_beaufsApp.swift in Sources */,
+				3699BA6C2870969E003AB57E /* HomePageBlagueComponent.swift in Sources */,
+				365B93F528778356008B042C /* TabBarItem.swift in Sources */,
+				365B93F1287777C9008B042C /* CustomTabBarContainer.swift in Sources */,
+				365B93ED28776CB2008B042C /* Extensions.swift in Sources */,
 				367EC1EF286F5C8C00D1807E /* LibPage.swift in Sources */,
+				365B93F328777B29008B042C /* TabBarItemPreferenceKey.swift in Sources */,
+				367EC203286F6A4A00D1807E /* ViewModel.swift in Sources */,
+				365B93EF2877746A008B042C /* CustomBarItem.swift in Sources */,
+				362D7E06286F809100E58973 /* les_beaufs.xcdatamodeld in Sources */,
 				367EC1ED286F5C7700D1807E /* Homepage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,12 +380,13 @@
 				DEVELOPMENT_TEAM = 238638W3AM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Les Bons Beaufs";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,9 +395,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.maxencegama.les-beaufs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -355,12 +415,13 @@
 				DEVELOPMENT_TEAM = 238638W3AM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Les Bons Beaufs";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -369,9 +430,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.maxencegama.les-beaufs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -438,12 +502,12 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		367EC1E2286F595700D1807E /* les_beaufs.xcdatamodeld */ = {
+		362D7E04286F809100E58973 /* les_beaufs.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				367EC1E3286F595700D1807E /* les_beaufs.xcdatamodel */,
+				362D7E05286F809100E58973 /* les_beaufs.xcdatamodel */,
 			);
-			currentVersion = 367EC1E3286F595700D1807E /* les_beaufs.xcdatamodel */;
+			currentVersion = 362D7E05286F809100E58973 /* les_beaufs.xcdatamodel */;
 			path = les_beaufs.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

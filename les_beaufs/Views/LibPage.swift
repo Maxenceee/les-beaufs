@@ -7,16 +7,14 @@
 
 import SwiftUI
 import CoreData
-import FirebaseFirestore
 
 struct LibPage: View {
     @Environment(\.managedObjectContext) private var viewContext
-    let database = Firestore.firestore()
 
     @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
+        sortDescriptors: [NSSortDescriptor(keyPath: \CoreBlague.timestamp, ascending: true)],
         animation: .default)
-    private var items: FetchedResults<Item>
+    private var items: FetchedResults<CoreBlague>
     
     var body: some View {
         NavigationView {
@@ -46,7 +44,7 @@ struct LibPage: View {
     
     private func addItem() {
         withAnimation {
-            let newItem = Item(context: viewContext)
+            let newItem = CoreBlague(context: viewContext)
             newItem.timestamp = Date()
 
             do {
@@ -74,11 +72,7 @@ struct LibPage: View {
             }
         }
     }
-    
-    private func writData(text: String) {
-        let docRef = database.document("/collection")
-        docRef.setData(["text": text])
-    }
+
 }
 
 private let itemFormatter: DateFormatter = {

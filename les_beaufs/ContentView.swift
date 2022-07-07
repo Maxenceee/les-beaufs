@@ -11,6 +11,7 @@ import CoreData
 struct ContentView: View {
     
     @State private var selection: Tab = .featured
+    @State private var tabSelection: TabBarItem = .home
     
     enum Tab {
         case featured
@@ -18,6 +19,27 @@ struct ContentView: View {
     }
 
     var body: some View {
+        CustomTabBarContainer(selection: $tabSelection) {
+            HomePage()
+                .tabBarItem(tab: .home, selection: $tabSelection)
+            
+            LibPage()
+                .tabBarItem(tab: .library, selection: $tabSelection)
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    
+    static var previews: some View {
+        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+    }
+}
+
+
+
+extension ContentView {
+    private var defaultView: some View {
         TabView(selection: $selection) {
             HomePage()
                 .tabItem {
@@ -31,11 +53,5 @@ struct ContentView: View {
                 }
                 .tag(Tab.list)
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
